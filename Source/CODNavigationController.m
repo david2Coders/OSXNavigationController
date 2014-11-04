@@ -23,20 +23,6 @@
 
 @implementation CODNavigationController
 
--(void)wantToClose{
-    
-    AppDelegate * delegate = (AppDelegate*)[NSApplication sharedApplication].delegate;
-    
-    [delegate.window close];
-    
-}
-
--(void)wantToMinimize{
-    
-    AppDelegate * delegate = (AppDelegate*)[NSApplication sharedApplication].delegate;
-    [delegate.window miniaturize:nil];
-}
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];

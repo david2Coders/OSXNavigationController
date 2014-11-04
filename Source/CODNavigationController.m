@@ -1,6 +1,6 @@
 //
 //  CODNavigationController.m
-//  Sizer
+//  OSXNavigationController
 //
 //  Created by David Santana Molina on 23/10/14.
 //  Copyright (c) 2014 2Coders Studio. All rights reserved.

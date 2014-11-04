@@ -1,6 +1,6 @@
 //
 //  CODNavigationController.h
-//  Sizer
+//  OSXNavigationController
 //
 //  Created by David Santana Molina on 23/10/14.
 //  Copyright (c) 2014 2Coders Studio. All rights reserved.
@@ -11,7 +11,6 @@
 
 @interface CODNavigationController : NSViewController
 
-@property (nonatomic,strong) CODTitleView * titleView;
 @property (nonatomic,strong) NSView * contentView;
 
 - (instancetype)initWithRootViewController:(NSViewController*)controller;

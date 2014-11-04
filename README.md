@@ -27,5 +27,5 @@ self.window.contentViewController = self.navigationController;
 ```
     
 ####TODO list:
- Push/Pop: Resize window to the previous/next view controller (actually fixed)
+ Push/Pop: Resize window to the previous/next view controller (now is fixed)
 

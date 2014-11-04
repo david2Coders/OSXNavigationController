@@ -47,7 +47,9 @@
 - (instancetype)initWithRootViewController:(NSViewController *)controller{
     
     if (self = [super init]) {
-        self.view = [[NSView alloc]initWithFrame:CGRectMake(0, 0, 512, 512)];
+        
+        CGSize size = controller.bounds.size;
+        self.view = [[NSView alloc]initWithFrame:CGRectMake(0, 0, size.width, controller.width)];
         self.contentView = [[NSView alloc]initWithFrame:self.view.frame];
         [self.view addSubview:self.contentView];
         [self addViewOfControllerToTheMainView:controller];
